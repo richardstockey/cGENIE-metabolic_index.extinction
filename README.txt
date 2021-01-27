@@ -13,8 +13,6 @@ Richard G. Stockey1*, Alexandre Pohl2,3, Andy Ridgwell2, Seth Finnegan4, and Eri
 * Corresponding author: rstockey@stanford.edu
 
 ################################################################
-11/14/2020 -- README.txt file creation (R.G.S)
-################################################################
 
 This repository contains the required R code to run the ecophysiological model analyses presented in this study, and generate the associated figures.
 
@@ -26,14 +24,20 @@ This repository contains two directories:
 
 To replicate the analyses and plots presented here, the following R packages are required:
 AquaEnv
+deeptime
 dplyr
 ggplot2
 ncdf4
+pals
 reshape2
 RColorBrewer
 RNetCDF
 
-All packages can be installed from CRAN. These scripts have been tested using R version 3.6.2 - Copyright (C) 2019 The R Foundation for Statistical Computing.
+The deeptime packages is currently only available on GitHub, and will need to be installed from there to reproduce all multipanel figures and plots (due to their dependency on the function ggarrange2). This can be achieved by running the following commands in your R console (ignore the first line if you already have devtools installed).
+install.packages("devtools")  
+devtools::install_github("willgearty/deeptime") 
+
+All other packages can be installed from CRAN. These scripts have been tested using R version 3.6.2 - Copyright (C) 2019 The R Foundation for Statistical Computing.
 
 Note that the R script "Hofmannn functions.R" is also required for ecophysiological model analyses. If not using the directory structure described above this will need to be manually sourced. 
 
