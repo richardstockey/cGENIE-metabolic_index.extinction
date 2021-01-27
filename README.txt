@@ -33,7 +33,7 @@ reshape2
 RColorBrewer
 RNetCDF
 
-The deeptime packages is currently only available on GitHub, and will need to be installed from there to reproduce all multipanel figures and plots (due to their dependency on the function ggarrange2). This can be achieved by running the following commands in your R console (ignore the first line if you already have devtools installed).
+The deeptime package is currently only available on GitHub, and will need to be installed from there to reproduce all multipanel figures and plots (due to their dependency on the function ggarrange2). This can be achieved by running the following commands in your R console (ignore the first line if you already have devtools installed).
 install.packages("devtools")  
 devtools::install_github("willgearty/deeptime") 
 
