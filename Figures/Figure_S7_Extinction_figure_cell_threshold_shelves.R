@@ -25,10 +25,10 @@ ecotypes.summary.baseCO2vshotCO2 <- merge(ecotypes.summary.baseCO2,
 ecotypes.summary.baseCO2vshotCO2$cells.y[is.na(ecotypes.summary.baseCO2vshotCO2$cells.y) == T] <- 0
 
 ecotypes.summary.baseCO2vshotCO2.long <- as.numeric()
-for (i in 0:20){
+for (i in 1:20){
   
-  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y <= i] <- 1
-  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y > i] <- 0
+  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y < i] <- 1
+  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y >= i] <- 0
   
   ecotypes.summary.baseCO2vshotCO2$cell.threshold <- i
   
@@ -85,10 +85,10 @@ ecotypes.summary.baseCO2vshotCO2 <- merge(ecotypes.summary.baseCO2,
 ecotypes.summary.baseCO2vshotCO2$cells.y[is.na(ecotypes.summary.baseCO2vshotCO2$cells.y) == T] <- 0
 
 ecotypes.summary.baseCO2vshotCO2.long <- as.numeric()
-for (i in 0:20){
+for (i in 1:20){
   
-  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y <= i] <- 1
-  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y > i] <- 0
+  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y < i] <- 1
+  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y >= i] <- 0
   
   ecotypes.summary.baseCO2vshotCO2$cell.threshold <- i
   
@@ -145,10 +145,10 @@ ecotypes.summary.baseCO2vshotCO2 <- merge(ecotypes.summary.baseCO2,
 ecotypes.summary.baseCO2vshotCO2$cells.y[is.na(ecotypes.summary.baseCO2vshotCO2$cells.y) == T] <- 0
 
 ecotypes.summary.baseCO2vshotCO2.long <- as.numeric()
-for (i in 0:20){
+for (i in 1:20){
   
-  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y <= i] <- 1
-  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y > i] <- 0
+  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y < i] <- 1
+  ecotypes.summary.baseCO2vshotCO2$extinction[ecotypes.summary.baseCO2vshotCO2$cells.y >= i] <- 0
   
   ecotypes.summary.baseCO2vshotCO2$cell.threshold <- i
   
