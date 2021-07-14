@@ -62,34 +62,34 @@ These scripts further assume that the directories described above are stored in 
 For the scripts in this repository, it is assumed that the whole "cGENIE-metabolic_index.extinction" directory has been downloaded and this directory structure was added within it (such that five sub-directories are stored within the primary directory).
 
 Viability extractions that should be run before each figure can be generated:
-Figure 4 		- 	Viability_extraction_fm0450.CO2.O2_1EFD_shelves.no.poles.R
-Figure 5 		- 	Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
-				Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
-				Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
-Figure S4 		- 	Viability_extraction_p0055.CO2.O2_1EFD_shelves.no.poles.R
-				Viability_extraction_p0251.CO2.O2_1EFD_shelves.no.poles.R
-				Viability_extraction_fm0450.CO2.O2_0.34EFD_shelves.no.poles.R
-Figure S5 		- 	Viability_extraction_fm0450.CO2.O2_1EFD_global.no.poles.R
-Figure S6 		- 	Viability_extraction_p0055.CO2.O2_1EFD_global.no.poles.R
-				Viability_extraction_p0251.CO2.O2_1EFD_global.no.poles.R
-				Viability_extraction_fm0450.CO2.O2_0.34EFD_global.no.poles.R	
-Figure S7 		- 	Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R	
-				Viability_extraction_fm0450.CO2.O2_0.34EFD_shelves.ecotype.sensitivity.no.poles.R	
-Figures S8-10, S12 	- 	Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
-				Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
-				Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
-Figure S11		- 	Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_lowEo.R
-				Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_lowEo.R
-				Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_highEo.R
-				Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_highEo.R
-				Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_lowEo.R
-				Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_lowEo.R
-				Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_highEo.R
-				Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_highEo.R
-				Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_lowEo.R
-				Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_lowEo.R
-				Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_highEo.R
-				Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_highEo.R
+Figure 4 	- 	Viability_extraction_fm0450.CO2.O2_1EFD_shelves.no.poles.R
+Figure 5 	- 	Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
+			Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
+			Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
+Figure S4 	- 	Viability_extraction_p0055.CO2.O2_1EFD_shelves.no.poles.R
+			Viability_extraction_p0251.CO2.O2_1EFD_shelves.no.poles.R
+			Viability_extraction_fm0450.CO2.O2_0.34EFD_shelves.no.poles.R
+Figure S5 	- 	Viability_extraction_fm0450.CO2.O2_1EFD_global.no.poles.R
+Figure S6 	- 	Viability_extraction_p0055.CO2.O2_1EFD_global.no.poles.R
+			Viability_extraction_p0251.CO2.O2_1EFD_global.no.poles.R
+			Viability_extraction_fm0450.CO2.O2_0.34EFD_global.no.poles.R	
+Figure S7 	- 	Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R	
+			Viability_extraction_fm0450.CO2.O2_0.34EFD_shelves.ecotype.sensitivity.no.poles.R	
+Figs S8-10, S12 - 	Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
+			Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
+			Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles.R
+Figure S11	- 	Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_lowEo.R
+			Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_lowEo.R
+			Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_highEo.R
+			Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_highEo.R
+			Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_lowEo.R
+			Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_lowEo.R
+			Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_highEo.R
+			Viability_extraction_p0251.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_highEo.R
+			Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_lowEo.R
+			Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_lowEo.R
+			Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_highEo.R
+			Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_highEo.R
 			
 ################################################################
 ################################################################
