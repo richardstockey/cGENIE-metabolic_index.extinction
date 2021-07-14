@@ -91,7 +91,7 @@ Figure S11	- 	Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitivity
 			Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowA0_highEo.R
 			Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highA0_highEo.R
 			
-Quantitative paleobiological analyses, along with code to produce and save associated figures and tables, can all be found in the script "Extinction_rates_ectotherms.R".
+Quantitative paleobiological analyses, along with code to produce and save associated figures and tables (Figs 1a, S1, S2; Table S1), can all be found in the script "Extinction_rates_ectotherms.R".
 
 ################################################################
 ################################################################
