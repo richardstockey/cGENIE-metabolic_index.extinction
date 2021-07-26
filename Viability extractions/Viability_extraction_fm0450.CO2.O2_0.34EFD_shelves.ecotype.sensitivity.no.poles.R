@@ -109,8 +109,8 @@ init.ecotypes <- 1000
 set.seed(seed.vec[it])
 
 # input Penn et al. 2018 parameter values
-u_A <- 3.01 # atm ^-1
-sig_A <- 0.49 # atm ^-1
+u_A <- 3.01 # log(atm ^-1)
+sig_A <- 0.49 # log(atm ^-1)
 
 u_C <- 1.10 # unitless
 sig_C <- 0.42 # unitless
@@ -122,7 +122,7 @@ sig_E <- 0.29 # eV
 A0.xxx <- rlnorm(init.ecotypes, meanlog = u_A, sdlog = sig_A)
 
 # sample Eo values from PDF (normal distribution)
-E0.xxx <- rnorm(init.ecotypes, mean = u_E, sd = sig_A)
+E0.xxx <- rnorm(init.ecotypes, mean = u_E, sd = sig_E)
 
 # sample phi crit values from PDF (log-normal distribution)
 phi_crit.xxx <- rlnorm(init.ecotypes, meanlog = u_C, sdlog = sig_C)
