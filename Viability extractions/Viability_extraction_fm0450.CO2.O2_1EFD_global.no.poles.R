@@ -113,7 +113,7 @@ E0.xxx <- rnorm(init.ecotypes, mean = u_E, sd = sig_E)
 phi_crit.xxx <- rlnorm(init.ecotypes, meanlog = u_C, sdlog = sig_C)
 
 # Set Penn et al. 2018 constants
-kB <- 8.6173303*10^(-5)
+kB <- 8.6173326e-5
 Tref <- 15+273.15
 
 # Initiate vectors and dataframes
