@@ -25,7 +25,9 @@ This repository contains two directories:
 To replicate the analyses and plots presented here, the following R packages are required:
 AquaEnv
 deeptime
+divDyn
 dplyr
+fANCOVA
 ggplot2
 ncdf4
 pals
