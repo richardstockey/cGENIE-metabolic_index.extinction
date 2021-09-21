@@ -93,7 +93,7 @@ Figure S11	-     Viability_extraction_p0055.CO2.O2_1EFD_shelves.ecotype.sensitiv
 		      Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_lowAo_highEo.R
 		      Viability_extraction_fm0450.CO2.O2_1EFD_shelves.ecotype.sensitivity.no.poles_highAo_highEo.R
 			
-Quantitative paleobiological analyses, along with code to produce and save associated figures and tables (Figs 1a, S1, S2; Table S1), can all be found in the script "Extinction_rates_ectotherms.R". The file "allData_2021-06-22.RData" contains Paleobiology Database occurence data that was downloaded and filtered using the same protocol described in Kocsis et al. 2019 (Methods in Ecology and Evolution) and is called within this script (assuming that it is stored within the current working directory). See commented instructions at the start of "Extinction_rates_ectotherms.R" for further details. 
+Quantitative paleobiological analyses, along with code to produce and save associated figures and tables (Figs 1a, S1, S2; results for Table S1), can all be found in the script "Extinction_rates_ectotherms.R". The file "allData_2021-06-22.RData" contains Paleobiology Database occurence data that was downloaded and filtered using the same protocol described in Kocsis et al. 2019 (Methods in Ecology and Evolution) and is called within this script (assuming that it is stored within the current working directory). See commented instructions at the start of "Extinction_rates_ectotherms.R" for further details. 
 
 ################################################################
 ################################################################
