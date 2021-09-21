@@ -67,7 +67,7 @@ if(no.sp < 4){
     filter(n == no.sp)
 }else{
   genera_w_x_sp <- sp_p_genus %>%
-    filter(n == no.sp)
+    filter(n >= no.sp)
 }
 
 sp_to_include <-  dat$genus %in% genera_w_x_sp$genus
